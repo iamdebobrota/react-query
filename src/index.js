@@ -6,12 +6,12 @@ import reportWebVitals from "./reportWebVitals";
 import { BrowserRouter } from "react-router-dom";
 import { QueryClient, QueryClientProvider } from "react-query";
 
-const queryClint = new QueryClient();
+export const queryClient = new QueryClient();
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <BrowserRouter>
-    <QueryClientProvider client={queryClint}>
+    <QueryClientProvider client={queryClient}>
       <App />
     </QueryClientProvider>
   </BrowserRouter>

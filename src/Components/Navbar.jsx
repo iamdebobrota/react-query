@@ -20,8 +20,8 @@ const Navbar = () => {
     },
     {
       id: 5,
-      text: "Product",
-      link: "/product",
+      text: "Add Product",
+      link: "/add-product",
     }
   ];
   return (
