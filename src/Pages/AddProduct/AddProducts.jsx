@@ -133,6 +133,8 @@ const AddProduct = () => {
       <div className="mt-4 grid grid-cols-4 shadow w-full bg-gray-200">
         {isLoading ? (
           <>Loading......</>
+        ) : isError ? (
+          <>Something error occured.....</>
         ) : (
           data?.data.map((el) => (
             <div

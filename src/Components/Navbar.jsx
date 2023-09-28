@@ -25,7 +25,7 @@ const Navbar = () => {
     }
   ];
   return (
-    <div className="flex justify-around bg-green-400">
+    <div className="fixed w-full top-0 flex justify-around bg-green-400">
       <div className="flex gap-6 p-2 text-lg">
         {NavLinks.map((el) => {
           return (
